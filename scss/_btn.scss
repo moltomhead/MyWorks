@@ -1,0 +1,44 @@
+.gl-btn{
+	margin: 0;
+	padding: 0.3em 1em;
+	text-align: center;
+	font-size: 10px;
+	//width: 50px;
+	//height: 20px;
+	line-height: 40px;
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none;
+	@include border-radius(3px);
+}
+
+.gl-btn-default{
+	background-color: $btn-default-bg;
+	color: $btn-default-color;
+}
+
+.gl-btn-primary{
+	background-color: $btn-default-bg;
+	color: $btn-default-color;
+}
+
+.gl-btn-success{
+	background-color: $btn-default-bg;
+	color: $btn-default-color;
+}
+
+.gl-btn-info{
+	background-color: $btn-default-bg;
+	color: $btn-default-color;
+}
+
+.gl-btn-warning{
+	background-color: $btn-default-bg;
+	color: $btn-default-color;
+}
+
+.gl-btn-danger{
+	background-color: $btn-default-bg;
+	color: $btn-default-color;
+}
+
